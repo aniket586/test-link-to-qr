@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/kakashi.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Added a slight transparency to the container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 10px;
+}
+
+.cc {
+    background-color: transparent; /* Make the background transparent */
+    color: white; /* Set text color to white */
+    text-align: center;
+    padding: 0; /* Remove padding */
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cc img {
+    margin: 0 5px;
+}
